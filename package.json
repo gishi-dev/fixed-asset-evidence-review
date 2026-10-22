@@ -1,0 +1,14 @@
+{
+  "name": "fixed-asset-evidence-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "架空の設備台帳と証拠を照合する公開デモ",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check app.js && node --check reconciliation.js"
+  },
+  "dependencies": {}
+}
